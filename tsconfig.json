@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "lib": [
+            "ESNext"
+        ],
+        "declaration": true,
+        "removeComments": false,
+        "stripInternal": true,
+        "strict": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "outDir": "build",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true
+    },
+    "include": [
+        "src"
+    ]
+}

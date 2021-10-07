@@ -1,0 +1,19 @@
+{
+    "name": "ts-export",
+    "version": "0.0.0",
+    "main": "build/index.js",
+    "bin": {
+        "ts-export": "build/index.js"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "yarn tsc",
+        "export": "node build/index.js"
+    },
+    "dependencies": {
+        "typescript": "^4.4.3"
+    },
+    "devDependencies": {
+        "@types/node": "^16.10.2"
+    }
+}
